@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+  <h1>おすすめのスイーツを紹介したいと思います。</h1>
+  <nav>
+  <h3>目次</h3>
+  <li>和菓子</li>
+    <li>和スイーツ</li>
+    <li>洋菓子</li>
+<p>あそうだ！その前にアンケートに答えてください。</p>   <from action="cgi-bin/example.cgi" method="post">
+    <p>この中で一番好きなスイーツを選択してください。</p>
+    <label>
+      <input type="radio" name"sui-tu" value="syo-toke-ki">ショートケーキ
+      </label>
+    
+    
+     <label>
+      <input type="radio" name"sui-tu" value="daifuku">大福
+      </label>
+    
+     <label>
+      <input type="radio" name"sui-tu" value="potetotips">ポテトチップス
+      </label>
+    
+    <input type="submit" name="submit" value="決定">
+    </form>
+    
+    <h3>和菓子</h3>
+    <p>和菓子の主な種類を紹介します！</p>
+    <li>おはぎ</li>
+    <li>大福</li>
+    <li>今川焼き</li>
+<li>どら焼き</li>
+    <li>カステラ</li>
+    <p>これはあくまで自分の和菓子の主な種類を表したので他にもたくさんあります。</p>
+    <h3>和スイーツ</h3>
+    <p>例えば抹茶のブール･ド･ネージュとかです。</p>
+    <h3>洋菓子</h3>
+    <p>例えば</p>
+    <li>ケーキ</li>
+   <li>ビスケット</li>
+    <li>パイ</li>
+    <li>スナック菓子</li>
+    </body>
+    <p>最後にアンケートをしてくれませんか。</p>
+    <form action="cgi-bin/example.cgi" method="post">
+      <p>この記事の満足度を教えてください。</p>
+      <p>つまらない😩<input type="range" name="range">おもしろい😄</p>
+      <input type="submit" name="sbmit" value="送信">
+</html>
